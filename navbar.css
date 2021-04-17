@@ -1,0 +1,92 @@
+body {
+  background: whitesmoke;
+}
+
+.top-bar {
+  z-index: 1;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background: black;
+}
+
+.icon {
+  fill: white;
+  width: auto;
+  position: absolute;
+}
+
+#logo {
+  height: 40px;
+  left: 20px;
+  top: 10px;
+}
+
+#navBtn {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  color: #ffffff;
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 11pt;
+}
+
+.btn:hover:not(.selected) {
+  background: #445668;
+}
+
+.selected {
+  background: #135496;
+}
+
+nav {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.split {
+  margin: 10px 0;
+  width: 1px;
+  height: 40px;
+  background: rgba(150, 150, 150, 0.5);
+}
+
+@media screen and (max-width: 869px) {
+  .split, .btn {
+    display: none;
+  }
+  nav {
+    margin-top: 60px;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+  }
+  #navBtn {
+    display: block;
+    right: 20px;
+    top: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .mobile .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .mobile .split {
+    display: block;
+    width: 100vw;
+    height: 1px;
+    margin: 0;
+  }
+}
