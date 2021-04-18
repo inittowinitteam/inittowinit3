@@ -11,6 +11,12 @@
   --page-width: clamp(200px, 100%, 60rem);
 }
 
+// temp solution
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: inherit;
   border: none;
