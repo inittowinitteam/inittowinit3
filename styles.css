@@ -11,9 +11,9 @@
   --page-width: clamp(200px, 100%, 60rem);
 }
 
-// temp solution
 img {
-  max-width: 100%;
+  max-width: var(--page-width);
+  width: 100%;
   height: auto;
 }
 
