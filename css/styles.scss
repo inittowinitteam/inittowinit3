@@ -11,6 +11,12 @@
     --page-width: clamp(200px, 100%, 60rem);
 }
 
+img {
+    max-width: var(--page-width);
+    width: 100%;
+    height: auto;
+}
+
 a {
     color: inherit;
     border: none;
@@ -21,7 +27,7 @@ a {
 .profileData {
     position: relative;
     transition: transform 50ms;
-    --img: url('/dunno.svg');
+    --img: url('/images/dunno.svg');
     box-shadow: 3px 3px 5px rgb(136, 136, 136);
     width: var(--dimentions);
     height: var(--dimentions);

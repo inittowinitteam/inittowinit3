@@ -27,7 +27,7 @@ a {
 .profileData {
   position: relative;
   transition: transform 50ms;
-  --img: url("/dunno.svg");
+  --img: url("/images/dunno.svg");
   box-shadow: 3px 3px 5px #888888;
   width: var(--dimentions);
   height: var(--dimentions);
