@@ -39,3 +39,16 @@ body main {
 .bottom-padding {
   height: 100px;
 }
+
+
+table {
+  background-color: #135496;;
+  font-size: 15px;
+  text-align: center;
+}
+
+tr, td, th {
+  background-color: white;
+  font-size: 15px;
+  padding: 5px 10px;
+}

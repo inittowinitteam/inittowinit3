@@ -304,3 +304,14 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    list-style-type: circle;
+    margin: 10px 30px;
+    font-size: 16px;
+    color: black;
+}
