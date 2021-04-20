@@ -100,14 +100,16 @@ a {
 }
 
 main {
-    h1 {
-        margin: 20px auto;
-        max-width: 200px;
-        text-align: center;
-        font-size: x-large;
-        padding: 10px 20px;
-        color: var(--selected-bg);
-        border: 1px solid var(--selected-bg);
+    section {
+        h1 {
+            margin: 20px auto;
+            max-width: 200px;
+            text-align: center;
+            font-size: x-large;
+            padding: 10px 20px;
+            color: var(--selected-bg);
+            border: 1px solid var(--selected-bg);
+        }
     }
     .section {
         padding-top: 60px;
