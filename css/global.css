@@ -5,10 +5,28 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background: whitesmoke;
+}
+
+body main {
+  animation: fadeIn 250ms ease-in-out;
+}
+
+.bottom-padding {
+  height: 100px;
+}
+
 :root {
   --selected-bg: #135496;
   --dimentions: clamp(250px, 45vw, 400px);
   --page-width: clamp(200px, 100%, 60rem);
+}
+
+img {
+  max-width: var(--page-width);
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -21,7 +39,7 @@ a {
 .profileData {
   position: relative;
   transition: transform 50ms;
-  --img: url("/dunno.svg");
+  --img: url("/images/dunno.svg");
   box-shadow: 3px 3px 5px #888888;
   width: var(--dimentions);
   height: var(--dimentions);
@@ -96,7 +114,7 @@ a {
   background: var(--selected-bg);
 }
 
-main h1 {
+main section h1 {
   margin: 20px auto;
   max-width: 200px;
   text-align: center;

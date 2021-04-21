@@ -1,14 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: whitesmoke;
+
+    main {
+        animation: fadeIn 250ms ease-in-out;
+    }
+}
+
+.bottom-padding {
+    height: 100px;
 }
 
 :root {
     --selected-bg: rgb(19, 84, 150);
     --dimentions: clamp(250px, 45vw, 400px);
     --page-width: clamp(200px, 100%, 60rem);
+}
+
+img {
+    max-width: var(--page-width);
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -18,10 +36,11 @@ a {
     text-decoration: none;
 }
 
+
 .profileData {
     position: relative;
     transition: transform 50ms;
-    --img: url('/dunno.svg');
+    --img: url('/images/dunno.svg');
     box-shadow: 3px 3px 5px rgb(136, 136, 136);
     width: var(--dimentions);
     height: var(--dimentions);
@@ -81,14 +100,16 @@ a {
 }
 
 main {
-    h1 {
-        margin: 20px auto;
-        max-width: 200px;
-        text-align: center;
-        font-size: x-large;
-        padding: 10px 20px;
-        color: var(--selected-bg);
-        border: 1px solid var(--selected-bg);
+    section {
+        h1 {
+            margin: 20px auto;
+            max-width: 200px;
+            text-align: center;
+            font-size: x-large;
+            padding: 10px 20px;
+            color: var(--selected-bg);
+            border: 1px solid var(--selected-bg);
+        }
     }
     .section {
         padding-top: 60px;
