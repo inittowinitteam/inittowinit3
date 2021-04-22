@@ -36,6 +36,20 @@ a {
   text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+    margin: 20px 0px;
+    font-size: 16px;
+    color: black;
+}
+
+.inTextImages {
+  width: var(--dimentions);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .profileData {
   position: relative;
   transition: transform 50ms;
