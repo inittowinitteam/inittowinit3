@@ -7,7 +7,6 @@
 
 body {
     background: whitesmoke;
-
     main {
         animation: fadeIn 250ms ease-in-out;
     }
@@ -25,8 +24,17 @@ body {
 
 img {
     max-width: var(--page-width);
-    width: 100%;
     height: auto;
+}
+
+#video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
 }
 
 a {
