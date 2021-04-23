@@ -5,6 +5,16 @@
   font-family: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style: square inside;
+}
+
+li {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
 body {
   background: whitesmoke;
 }
