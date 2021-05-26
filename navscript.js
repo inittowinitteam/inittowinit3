@@ -17,7 +17,7 @@ function toggleNavDrawer() {
     document.getElementById("top-nav").classList.toggle("mobile");
 }
 
-const tabs = ["Team Profile", "Group Processes", "Career Plans", "IT Work", "IT Technologies", "Project Idea"];
+const tabs = ["Team Profile", "Group Processes", "Career Plans", "Tools", "Project Description", "Skill and Jobs"];
 
 function loadNavBar() {
     const base = make("section", "top-bar", "top-nav");
