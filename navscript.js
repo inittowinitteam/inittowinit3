@@ -54,7 +54,7 @@ function loadNavBar() {
         const s = tabs[i];
         working.appendChild(make("div", "split"));
         let btn = make("a", "btn");
-        btn.href = "/page/" + s.replace(" ", "").toLowerCase() +"/";
+        btn.href = "/inittowinit3/page/" + s.replace(" ", "").toLowerCase() +"/";
         if (i==0 || i==4) btn.href+="#overview"
         btn.textContent = s;
         working.appendChild(btn);
