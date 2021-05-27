@@ -22,7 +22,7 @@ const tabs = ["Team Profile", "Group Processes", "Career Plans", "Tools", "Proje
 function loadNavBar() {
     const base = make("section", "top-bar", "top-nav");
     let working = document.createElement("a");
-    working.href="/";
+    working.href="/inittowinit3/";
     
     let svg = getNode('svg');
     svg.setAttributeNS(null, "class", "icon");
