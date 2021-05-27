@@ -12,8 +12,18 @@
         .grid {
           display: -ms-grid;
           display: grid;
-          -ms-grid-columns: 2px 1fr 2px 1fr;
+          -ms-grid-columns: 1fr 2px 1fr;
           grid-template-columns: 1fr 1fr;
+          place-items: center;
+          background: #135496;
+          padding: 2px;
+          gap: 2px;
+        }
+        .grid2 {
+          display: -ms-grid;
+          display: grid;
+          -ms-grid-columns: 100px 2px 1fr 2px;
+          grid-template-columns: 100px 1fr;
           place-items: center;
           background: #135496;
           padding: 2px;
@@ -33,7 +43,7 @@
               -ms-flex-pack: center;
                   justify-content: center;
           background: white;
-          text-align: center;
+          text-align: left;
         }
         
         p, h4 {
